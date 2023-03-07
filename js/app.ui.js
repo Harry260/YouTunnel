@@ -22,8 +22,13 @@ function loadingToggle(isLoading = false) {
 	} else {
 		loadingScreen.hide();
 		ytInfo.show();
+		linkInput.blur();
 	}
 }
+
+$(".link-box").on("click", () => {
+	linkInput.focus();
+});
 
 function formatListMaker(Obj) {
 	Obj.forEach((item) => {

@@ -44,3 +44,8 @@
 	-webkit-user-select: auto !important;
 	-o-user-select: auto !important;
 }
+
+textarea:focus,
+input:focus {
+	outline: none;
+}
