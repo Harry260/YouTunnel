@@ -17,6 +17,10 @@
 	scrollbar-width: none; /* Firefox */
 }
 
+:root {
+	--viewport-height: 100%;
+}
+
 *::-webkit-scrollbar {
 	display: none; /* Safari and Chrome */
 }
@@ -27,7 +31,7 @@ body {
 
 .main-wrapper {
 	width: 100%;
-	height: 100vh;
+	height: calc(var(--viewport-height) - 55px);
 }
 
 .inner-wrapper {

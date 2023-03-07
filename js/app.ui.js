@@ -76,3 +76,13 @@ function formatListMaker(Obj) {
 		window.open(link);
 	});
 }
+
+visualViewport.addEventListener("resize", setViewHeight);
+function setViewHeight() {
+	document.documentElement.style.setProperty(
+		"--viewport-height",
+		`${visualViewport.height}px`
+	);
+}
+
+setViewHeight();
