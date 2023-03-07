@@ -47,7 +47,6 @@ body {
 .link-box {
 	background-color: #151515;
 	padding: 20px 30px;
-
 	border-radius: 10px;
 }
 
@@ -83,7 +82,6 @@ body {
 
 .inner-controller {
 	width: 500px;
-
 	background-color: #151515;
 	margin: 15px;
 	border-radius: 10px;
@@ -92,7 +90,7 @@ body {
 	overflow-y: scroll;
 	position: absolute;
 	top: 0;
-	left: -500px;
+	left: -900px;
 	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
